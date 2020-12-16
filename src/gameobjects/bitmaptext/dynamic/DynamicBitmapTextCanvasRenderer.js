@@ -103,7 +103,7 @@ var DynamicBitmapTextCanvasRenderer = function (renderer, src, interpolationPerc
         scale = baseScale;
         rotation = 0;
 
-        charCode = text.charCodeAt(i);
+        charCode = text.codePointAt(i);
 
         if (charCode === 10)
         {

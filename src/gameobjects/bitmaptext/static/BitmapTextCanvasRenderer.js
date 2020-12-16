@@ -94,7 +94,7 @@ var BitmapTextCanvasRenderer = function (renderer, src, interpolationPercentage,
 
     for (var i = 0; i < textLength; i++)
     {
-        charCode = text.charCodeAt(i);
+        charCode = text.codePointAt(i);
 
         if (charCode === 10)
         {

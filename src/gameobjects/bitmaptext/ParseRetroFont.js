@@ -67,7 +67,7 @@ var ParseRetroFont = function (scene, config)
     {
         // var node = letters[i];
 
-        var charCode = letters.charCodeAt(i);
+        var charCode = letters.codePointAt(i);
 
         data.chars[charCode] =
         {

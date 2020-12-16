@@ -125,7 +125,7 @@ var BitmapTextWebGLRenderer = function (renderer, src, interpolationPercentage, 
 
     for (var i = 0; i < textLength; i++)
     {
-        charCode = text.charCodeAt(i);
+        charCode = text.codePointAt(i);
 
         //  Carriage-return
         if (charCode === 10)

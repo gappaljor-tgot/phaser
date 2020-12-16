@@ -101,7 +101,7 @@ var GetBitmapTextSize = function (src, round, out)
     {
         for (i = 0; i < textLength; i++)
         {
-            charCode = text.charCodeAt(i);
+            charCode = text.codePointAt(i);
 
             if (charCode === 10)
             {
@@ -263,7 +263,7 @@ var GetBitmapTextSize = function (src, round, out)
 
     for (i = 0; i < textLength; i++)
     {
-        charCode = text.charCodeAt(i);
+        charCode = text.codePointAt(i);
 
         if (charCode === 10)
         {
